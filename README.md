@@ -1,7 +1,7 @@
 1. Fixed Dynamic Arrays
 In C++, a fixed dynamic array is declared with a constant size known at compile time. For example, int arr[5];. The array is created on the stack and its size cannot change during execution.
 
-In Python, you create a fixed-size list like arr = [0] * 5. Even though it looks fixed, Python's list is actually placed on the heap, and internally it can be resized easily because lists are dynamic by nature.
+In Python, we create a fixed-size list like arr = [0] * 5. Even though it looks fixed, Python's list is actually placed on the heap, and internally it can be resized easily because lists are dynamic by nature.
 
 Comparison:
 
